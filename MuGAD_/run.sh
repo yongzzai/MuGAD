@@ -9,7 +9,7 @@ export TORCH_CUDNN_V8_API_ENABLED=1
 
 python main.py \
     --hidden_dim 64 --num_conv_layer 1 \
-    --pretrain_epoch 10 --adapt_epoch 4 \
+    --pretrain_epoch 10 --adapt_epoch 5 \
     --learning_rate 0.0006 --batch_size 64 \
     --thres 0.2 --beta 0.3 --k 7 --lp 0.1 &
 
